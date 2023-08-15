@@ -77,6 +77,10 @@ button {
     margin: 5px;
 }
 
+.green {
+    background-color: #08f26e;
+}
+
 /*Class to hide contents*/
 .hidden {
     display: none;

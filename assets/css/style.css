@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+#global_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 80vh;
+    margin: 5rem;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    background-color: #f5f5f5;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+/*Task style*/
+.task-btn {
+    border-radius: 10px;
+}
+
+/*Action buttons style*/
+#verified {
+    background-color: #fff;
+}
+#pencil {
+    background-color: #89cff0;
+}
+
+#trash {
+    background-color: #f00;
+}
+
+/*Alert style*/
+#p-alert {
+    color: #f00;
+    transition: 1s ease-in;
+    text-align: end;
+}
+
+/*Main div for posts*/
+#task {
+    display: flex;
+    gap: 20px;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+/*Class to hide contents*/
+.hidden {
+    display: none;
+}

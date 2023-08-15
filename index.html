@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/js/main.js"></script>
+    <title>Task List</title>
+</head>
+<body>
+    <main>
+        <div id="global_container">
+            <p class="" id="p-alert">Preencha todos os campos</p>
+            <div id="inputs">
+                <input type="text" id="title" name="input-text" placeholder="Adicione uma nova tarefa">
+                <button onclick="savePost()"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div id="list" class="">
+                <div id="task">
+                    <h2>Naruto Senin</h2>
+                    <div class="buttons">
+                        <button class="task-btn" id="verified"><i class="fa-solid fa-check"></i></button>
+                        <button class="task-btn" id="pencil"><i class="fa-solid fa-pencil"></i></button>
+                        <button class="task-btn" id="trash"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+                <div id="task">
+                    <h2>Teste de task no desafio</h2>
+                    <div class="buttons">
+                        <button class="task-btn" id="verified"><i class="fa-solid fa-check"></i></button>
+                        <button class="task-btn" id="pencil"><i class="fa-solid fa-pencil"></i></button>
+                        <button class="task-btn" id="trash"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
